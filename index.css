@@ -100,7 +100,6 @@ button:active #bolt {
   margin: 0;
   color: #0ea5e9;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .placeholder {
