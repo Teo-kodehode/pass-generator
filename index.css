@@ -99,10 +99,34 @@ button:active #bolt {
 }
 .pass p {
   margin: 0;
+  color: #0ea5e9;
 }
 
 .placeholder {
   mix-blend-mode: soft-light;
   align-items: center;
   align-content: center;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+
+  main {
+    background-color: #eceefd;
+    color: black;
+  }
+
+  #textandbtn p {
+    color: #6b7280;
+  }
+
+  .pass{
+      background-color: #0ea5e9;
+  }
+
+  .pass p {
+    color: black;
+  }
 }
