@@ -21,6 +21,8 @@ function passgenerate() {
 
 //runs the generation and displays the passwords on the Site
 function generate() {
+
+//Runs the passgenerate function
   passgenerate();
 
 
